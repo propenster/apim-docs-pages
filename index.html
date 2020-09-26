@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidelity Bank API Management Portal - Documentation</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <main>
+        <div class="container-fluid">
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Fidelity</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">API Portal Documentation</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search anything..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </section>
+
+    <section id="body">
+        <div class="body-head"><h2>API Management Portal Documentation</h2></div>
+
+        <div class="body-main">
+
+            <p class="lead">The API Managment Portal is divided into 5 main sections...</p>
+            <ul class="outline">
+                <li><a href="#">First Part - Register on the developer portal <a target="_blank" href="https://developer.fidelitybank.ng/signup" class="btn btn-sm btn-primary text-light">Here</a></a></li>
+                <li><a href="#firstpart-login">Second Part - Sign in</a></li>
+                <li><a href="#product-list">Third Part - Browse Products</a></li>
+                <li><a href="#registering-application">Fourth Part - Registering an Application</a></li>
+                <li><a href="#submit-application">Fifth Part - Submitting an Application for Review</a></li>
+                    
+            </ul>
+
+            <div class="panel" id="firstpart-login">
+
+                <h3  class="panel-header">First Part - Log in to your Developer Portal </h3>
+                <div class="panel-body">
+                    <p>The process begins with you signing in. Once you register, an OTP is sent to your registered phone
+                        number, you are supposed to come back to this portal to <a href="https://dtptest.fidelitybank.ng/APIMdel/account/login">Sign in</a> See the screenshot below....
+
+                    </p>
+                    <img src="images/docs_login.png">
+                    
+                    <p class="mt-2">Once you are signed in, you are met with the page below...<em>See screenshot below</em></p>
+                    <img src="images/docs_welcome_post_login.png">
+
+                    <p class="mt-2">Once you are signed in, you can browse our list of <a target="_blank" href="https://sandbox.fidelitybank.ng/products">Products</a>, see the <a target="_blank" href="https://sandbox.fidelitybank.ng/Pricing">Pricing</a> page 
+                        OR proceed to ...<a href="#registering-application">Registering an application</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel" id="product-list">
+
+                <h3  class="panel-header">Third Part - Browse Products</h3>
+                <div class="panel-body">
+                    <p>Click the <strong>Products</strong> link to view the different categories of our products 
+                    </p>
+                    <img src="images/docs_product_categories.png">
+                    
+                    <p class=" alert alert-primary mt-2">Click <strong>Overview</strong> to view any of these products and see particularly the <a target="_blank" href="https://sandbox.fidelitybank.ng/products/1234">Test Product</a> to have a feel of some of our <a href="#product-list">Public API's</a></p>
+                    <p>You can then go ahead to view the <a href="https://sandbox.fidelitybank.ng/Pricing">pricing page</a> that gives you a list of our API Subscription pricing options
+                        tailored to every business use case and requirements...
+                    </p>
+                    <img src="images/docs_pricing.png">
+
+                    <p class="mt-2">Have you identified a particular product or API subscription plan you would like to subscribe to? 
+                        go ahead to <a href="#registering-application">Register an application</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel" id="registering-application">
+
+                <h3  class="panel-header">Second Part -  Registering an Application</h3>
+                <div class="panel-body">
+                    <p>So you're registered now, and you have identified particular <a target="_blank" href="https://sandbox.fidelitybank.ng/products">products - paid API subscriptions </a>- you would like to 
+                        consume, you are now ready to start consuming our API's.
+                        If you are still not registered, go back here to <a href="">register</a>
+                       To register an application on your developer account to start consuming our API's, use the form <a href="#">here to register</a> a new application. <em>Please Ensure you are logged in</em> 
+                        <ol>
+                            <li>Click the dropdown under your Logged in name</li><img src="images/docs_profile.png">
+                            <li>CLick <strong>"My Profile"</strong></li>
+                            <li>You are directed to a Profile page</li>
+                            <img src="images/docs_submit_app_for_review.png">
+                            <li>Register new application properties by clicking the <strong><a href="#">Register application</a></strong></li>
+                            <li>Fill out the details properly and upload an image of size <strong>100 x 100 pixels</strong></li><img src="images/docs_fill_application_properties.png">
+                            <li>Save the application properties for review</li>
+                        </ol>
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="panel" id="submit-application">
+
+                <h3  class="panel-header">Second Part -  Submitting an Application for Review</h3>
+                <div class="panel-body">
+                    <p>Once an application has been successfully registered onto your developer account, from step 2 above <a href="#">register</a>
+                       You need to submit your application for review, Go to  <a href="#">here to register</a> a new application. <em>Please Ensure you are logged in</em> 
+                        <ol>
+                            <li>Go to my profile</li><img src="images/docs_profile.png">
+                            <li>At the My Profile page, you will see 3 things - <strong>Profile</strong>, <strong>Your subscription</strong> and particularly you will see the list of Applications registered to your account under <strong>Your applications</strong>
+                                If you need to make some modifications to the Application registered, Click the <strong>Edit</strong>
+                                To submit the application for review by the API Vendors, CLick the <strong>Submit</strong> button
+                                <em>See the Image Below</em>
+                            </li><img src="images/docs_submit_app_for_review.png">
+                            <li></li>
+                        </ol>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="footnotes">
+                <p class="lead">Still can't find what you want, visit our <a target="_blank" href="https://sandbox.fidelitybank.ng/faqs">Frequently Asked Questions (FAQs)</a> to Learn More or 
+                submit a <a target="_blank" href="https://sandbox.fidelitybank.ng/issues">Support ticket</a> here.</p>
+            </div>
+
+
+
+        </div>
+    </section>
+</div>
+</main>
+   
+    
+    <section id="footer">
+        <p class="text-center">A product of Fidelity Bank PLC &nbsp; &copy; Copyright 2020 - All Rights Reserved</p>
+            
+    </section>
+
+    <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
