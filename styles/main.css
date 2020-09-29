@@ -44,6 +44,9 @@ body img{
     border: none;
     padding: 0;
     margin: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
 #sidebar .sidenav h5{
@@ -53,6 +56,18 @@ body img{
     
 }
 
+#sidebar .sidenav .dochead{
+    color: black;
+    
+}
+
 #sidebar li{
     list-style-type: none;
 }
+
+#sidebar .doc-pdf{
+    border: 2px solid black;
+    color: darkgrey;
+    padding: 2px auto;
+}
+
