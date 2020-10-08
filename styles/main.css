@@ -71,3 +71,13 @@ body img{
     padding: 2px auto;
 }
 
+#welcome-step ol{
+padding: 5px auto;
+}
+
+#welcome-step li{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
